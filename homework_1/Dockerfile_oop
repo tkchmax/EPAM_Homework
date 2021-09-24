@@ -1,0 +1,13 @@
+FROM ubuntu:latest
+
+RUN apt update
+RUN apt install -y g++
+
+COPY . /src/usr/hw1
+
+WORKDIR /src/usr/hw1
+
+RUN g++ -o hw1_oop Calculator_oop.h Calculator_oop.cpp main_oop.cpp 
+
+CMD ["./hw1_oop"]
+

@@ -1,0 +1,13 @@
+FROM ubuntu:latest
+
+RUN apt update
+RUN apt install -y g++
+
+COPY . /src/usr/hw1
+
+WORKDIR /src/usr/hw1
+
+RUN g++ -o hw1_proc Calculator_proc.h Calculator_proc.cpp main_proc.cpp 
+
+CMD ["./hw1_proc"]
+
