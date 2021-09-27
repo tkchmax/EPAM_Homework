@@ -7,8 +7,8 @@ ostream& operator<<(ostream& os, const StudentData& student)
 	if (student.avgMark_ >= 4 && student.attendedLessons_ >= 5)
 		succeeded = "+";
 
-	os << setw(10) << succeeded << setw(10) << student.name_ << setw(15) <<
-		student.surname_ << setw(13) << student.avgMark_ << setw(13) << student.attendedLessons_;
+	os << setw(6) << succeeded << setw(14) << student.name_ << setw(15) <<
+		student.surname_ << setw(13)<<setprecision(3)<< student.avgMark_ << setw(10) << student.attendedLessons_;
 	return os;
 }
 
