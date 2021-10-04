@@ -137,8 +137,8 @@ public:
 	{
 		std::cout << "Commands:\n";
 		std::cout << std::setw(15) << std::left << "  add" << std::setw(30) << std::left << "add new employee" << std::endl;
-		std::cout << std::setw(15) << std::left << "  show <id>" << std::setw(30) << std::left << "display employee[id] infomation" << std::endl;
-		std::cout << std::setw(15) << std::left << "  show-all" << std::setw(30) << std::left << "display all employees information" << std::endl;
+		std::cout << std::setw(15) << std::left << "  ls <id>" << std::setw(30) << std::left << "display employee[id] infomation" << std::endl;
+		std::cout << std::setw(15) << std::left << "  ls" << std::setw(30) << std::left << "display all employees information" << std::endl;
 		std::cout << std::setw(15) << std::left << "  rm <id>" << std::setw(30) << std::left << "remove employee[id] from database" << std::endl;
 	}
 };

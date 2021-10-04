@@ -22,5 +22,6 @@ Logger2.o: Logger2.cpp Logger2.h
 	$(CC) $(CFLAGS) Logger2.cpp 
 
 clean:
-	rm -rf *.o main file.txt
+	rm -rf *.o main 
+
 	
