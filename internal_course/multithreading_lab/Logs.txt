@@ -1,0 +1,8 @@
+tid [4864] [D:\projects++\MultithreadingLab\MultithreadingLab\main.cpp|main:94] hello from main!
+    tid [4864] [D:\projects++\MultithreadingLab\MultithreadingLab\main.cpp|foo_A:65] hello from foo_A!
+        tid [4864] [D:\projects++\MultithreadingLab\MultithreadingLab\main.cpp|foo_B:57] hello from foo_B!
+            tid [4864] [D:\projects++\MultithreadingLab\MultithreadingLab\main.cpp|foo_C:51] hello from foo_C!
+    tid [4ebc] [D:\projects++\MultithreadingLab\MultithreadingLab\main.cpp|foo_A:65] hello from foo_A!
+    tid [6778] [D:\projects++\MultithreadingLab\MultithreadingLab\main.cpp|foo_C:51] hello from foo_C!
+        tid [4ebc] [D:\projects++\MultithreadingLab\MultithreadingLab\main.cpp|foo_B:57] hello from foo_B!
+            tid [4ebc] [D:\projects++\MultithreadingLab\MultithreadingLab\main.cpp|foo_C:51] hello from foo_C!
